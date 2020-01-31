@@ -1,0 +1,73 @@
+5:584  0:936  Found UEFI Acpi 2.0 RSDP at 96FFE014
+5:584  0:000  Saving ACPI tables from RSDP 96FFE014 to EFI\CLOVER\ACPI\origin ...
+5:584  0:000   96FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:791  0:207    (Xsdt: 96FFE210, Rsdt: 96FFE124)
+5:791  0:000    96FFE210: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 156 -> XSDT.aml
+5:928  0:136    96FFE124: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 96 -> RSDT.aml
+6:054  0:126    Tables in Xsdt: 15
+6:054  0:000    0. 96FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268 -> FACP.aml
+6:618  0:564        (Dsdt: 96FEC000, Facs: 96FBA000, XDsdt: 96FEC000, XFacs: 0)
+6:618  0:000        96FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759 -> DSDT.aml
+6:746  0:128        96FBA000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+6:873  0:126    1. 96FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566 -> UEFI.aml
+7:001  0:128    2. 96FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
+7:126  0:125    3. 96FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
+7:258  0:131    4. 96FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140 -> APIC.aml
+7:383  0:125    5. 96FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
+7:506  0:123    6. 96FEB000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548 -> WDAT.aml
+7:629  0:122    7. 96FE9000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200 -> SSDT-0-ACRPRDCT.aml
+7:801  0:172    8. 96FE7000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> BOOT.aml
+7:916  0:115    9. 96FE2000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52 -> ASPT.aml
+8:032  0:115    10. 96FE0000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68 -> FPDT.aml
+8:148  0:115    11. 96FDE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408 -> SSDT-1-ACRPRDCT.aml
+8:263  0:114    12. 96FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706 -> SSDT-2-ACRPRDCT.aml (Found hidden SSDT 4 pcs)
+8:382  0:119        * 93E50018: '«#£ì', ')', Rev: 37, Len: 1398275535  AB 23 A3 EC CF FD 57 53 25 6F 02 00 00 00 00 00 
+8:382  0:000        * 96E18A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 5E 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x2_0-ApIst.aml
+8:496  0:114        * 96E17018: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 2107  53 53 44 54 3B 08 00 00 01 C0 50 6D 52 65 66 00 Internal length = 2107 -> SSDT-x2_1-Cpu0Cst.aml
+8:612  0:115        * 96E16D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D4 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+8:771  0:159  
+8:771  0:000    13. 96FDA000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 10674 -> SSDT-3-ACRPRDCT.aml
+8:886  0:114    14. 96FD9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56 -> BGRT.aml
+9:001  0:114    Tables in Rsdt: 15
+9:001  0:000    0. 96FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+9:001  0:000        (Dsdt: 96FEC000, Facs: 96FBA000, XDsdt: 96FEC000, XFacs: 0)
+9:001  0:000        96FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759
+9:002  0:001        96FBA000: 'FACS', Ver: 2, Len: 64
+9:002  0:000    1. 96FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+9:002  0:000    2. 96FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+9:002  0:000    3. 96FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+9:002  0:000    4. 96FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140
+9:002  0:000    5. 96FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+9:002  0:000    6. 96FEB000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548
+9:002  0:000    7. 96FE9000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200
+9:002  0:000    8. 96FE7000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+9:002  0:000    9. 96FE2000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+9:002  0:000    10. 96FE0000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+9:002  0:000    11. 96FDE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408
+9:002  0:000    12. 96FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
+9:002  0:000    13. 96FDA000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 10674
+9:002  0:000    14. 96FD9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
+9:002  0:000  Found UEFI Acpi 1.0 RSDP at 96FFE000
+9:002  0:000  Printing ACPI tables from RSDP 96FFE000 ...
+9:002  0:000   96FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+9:002  0:000    (Rsdt: 96FFE038)
+9:002  0:000    96FFE038: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 96
+9:002  0:000    Tables in Rsdt: 15
+9:002  0:000    0. 96FFB000: 'FACP', 'ACRPRDCT', Rev: 5, Len: 268
+9:002  0:000        (Dsdt: 96FEC000, Facs: 96FBA000, XDsdt: 96FEC000, XFacs: 0)
+9:002  0:000        96FEC000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 45759
+9:003  0:001        96FBA000: 'FACS', Ver: 2, Len: 64
+9:003  0:000    1. 96FFD000: 'UEFI', 'ACRPRDCT', Rev: 1, Len: 566
+9:003  0:000    2. 96FFC000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+9:003  0:000    3. 96FFA000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+9:003  0:000    4. 96FF9000: 'APIC', 'ACRPRDCT', Rev: 3, Len: 140
+9:003  0:000    5. 96FF8000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+9:003  0:000    6. 96FEB000: 'WDAT', 'ACRPRDCT', Rev: 1, Len: 548
+9:003  0:000    7. 96FE9000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 4200
+9:003  0:000    8. 96FE7000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+9:003  0:000    9. 96FE2000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+9:003  0:000    10. 96FE0000: 'FPDT', 'ACRPRDCT', Rev: 1, Len: 68
+9:003  0:000    11. 96FDE000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2408
+9:003  0:000    12. 96FDD000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2706
+9:003  0:000    13. 96FDA000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 10674
+9:003  0:000    14. 96FD9000: 'BGRT', 'ACRPRDCT', Rev: 1, Len: 56
