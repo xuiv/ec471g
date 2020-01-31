@@ -26,6 +26,6 @@ mkdir /var/vm/sleepimage
 
 config.plist来自于https://github.com/holoto/ec-471g
 
-测试webdriver无法驱动gt630m独显，macosx不支持nvidia的软件切换独显，如果是bios里能禁独显，或者独显不通过集显可以独立输出信号，这两种情况都是可驱动的。
+测试webdriver无法驱动gt630m独显，macosx不支持nvidia的软件切换独显，如果是bios里能禁集显，或者独显不通过集显可以独立输出信号，这两种情况都是可驱动的。
 
 我的机器上集显，声卡，有线网卡，无线网卡，亮度调节都是正常的，只是低分屏字体太糟糕，还不如linux，只是因为要使用checkra1n才装的，个人感觉apple的软件是最差的，远不如微软和开源社区，功能有限，处处加密，其实漏洞最多。
